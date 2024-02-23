@@ -18,7 +18,7 @@ const Text = styled.text`
   color: ${({ theme }) => theme.textColor.highlighted};
 `;
 const Rect = styled.rect.attrs(({ theme }) => ({
-  fill: theme.roundHeaders.background,
+  fill: theme.roundHeaders.backgroundColor,
 }))``;
 
 export default function RoundHeader({

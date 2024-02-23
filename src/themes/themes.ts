@@ -7,7 +7,7 @@ const defaultTheme: Theme = {
 
   disabledColor: '#5D6371',
   roundHeaders: {
-    background: '#2F3648',
+    backgroundColor: '#2F3648',
   },
   matchBackground: {
     wonColor: '#1D2232',

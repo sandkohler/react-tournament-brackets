@@ -153,7 +153,7 @@ export type Theme = {
   disabledColor: string;
 
   roundHeaders: {
-    background: string;
+    backgroundColor: string;
   };
 
   matchBackground: {

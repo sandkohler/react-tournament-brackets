@@ -185,6 +185,8 @@ export type Theme = {
   };
 
   canvasBackground: string;
+
+  smooth: string;
 };
 
 export type CommonTreeProps = {

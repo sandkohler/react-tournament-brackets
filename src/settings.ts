@@ -30,7 +30,7 @@ export const defaultStyle: Options = {
 
 export const getCalculatedStyles = (style = defaultStyle): ComputedOptions => {
   const { boxHeight, width, spaceBetweenColumns, spaceBetweenRows } = style;
-  const columnWidth = width + spaceBetweenColumns;
-  const rowHeight = boxHeight + spaceBetweenRows;
+  const columnWidth = width! + spaceBetweenColumns!;
+  const rowHeight = boxHeight! + spaceBetweenRows!;
   return { ...style, rowHeight, columnWidth };
 };
